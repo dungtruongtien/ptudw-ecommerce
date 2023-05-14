@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "ptudwprojectdb",
+    "password": "qUFzkpMjpLIyGKAet8EE7WOallDlCq5i",
+    "database": "ptudwprojectdb_ru7u",
+    "host": "dpg-chg7qbik728sd6gr51v0-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "required": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "eShop",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ptudwprojectdb",
+    "password": "qUFzkpMjpLIyGKAet8EE7WOallDlCq5i",
+    "database": "ptudwprojectdb_ru7u",
+    "host": "dpg-chg7qbik728sd6gr51v0-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "required": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
