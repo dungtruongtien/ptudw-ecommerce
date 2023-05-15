@@ -1,6 +1,6 @@
 <div class="product-item">
   <div class="product-image">
-    <a href="/product-detail">
+    <a href="/product/{{id}}">
       <img src="{{imagePath}}" alt="Product Image">
     </a>
     <div class="product-action">
@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="product-content">
-    <div class="title"><a href="#">{{name}}</a></div>
+    <div class="title"><a href="/products/{{id}}">{{name}}</a></div>
     {{{ createStarList stars }}}
     <div class="price">${{price}} <span>${{oldPrice}}</span></div>
   </div>
